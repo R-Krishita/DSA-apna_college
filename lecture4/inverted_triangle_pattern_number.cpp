@@ -9,7 +9,7 @@ int main(){
             cout << " ";
         }
         for(j=0;j<n-i;j++){      //iterates n-i times and gives n-i number of columns or elements of each row
-            cout << n-i;
+            cout << i+1;
         }
         cout <<endl;               //new line for each row
     }
@@ -18,3 +18,16 @@ int main(){
 
 // Output:
 // Enter n = 4
+// 1111
+//  222
+//   33
+//    4
+
+
+// same program can also print this pattern by changing line 12 to cout << i+1 << " ";
+// Output:
+// Enter n = 4
+// 1 1 1 1
+//  2 2 2
+//   3 3
+//    4
