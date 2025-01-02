@@ -10,7 +10,7 @@ int main() {
         }
         cout << "*";
         if(i!=0){
-            for(j=0;j<2*i-1;j++){
+            for(j=0;j<2*i-1;j++){           //2*i-1 prints odd number of spaces in ascending order
                 cout << " ";
             }
             cout << "*";
@@ -23,7 +23,7 @@ int main() {
         }
         cout << "*";
         if(i!=n-2){
-            for(j=0;j<2*(n-i)-5;j++){
+            for(j=0;j<2*(n-i-2)-1;j++){      //2*(n-i-2)-1 OR 2*(n-i)-5 prints odd number of spaces in descending order   
                 cout << " ";
             }
             cout << "*";
