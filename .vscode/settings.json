@@ -2,6 +2,7 @@
     "C_Cpp.default.compilerPath": "c:\\DSA practice questions\\lecture2\\hello_world.cpp",
     "files.associations": {
         "iostream": "cpp",
-        "climits": "cpp"
+        "climits": "cpp",
+        "ostream": "cpp"
     }
 }
