@@ -1,0 +1,42 @@
+=> Time Complexities in BESt to Worst order from top to bottom
+1. O(1)                 Best
+2. O(logn)                |
+3. O(n)                   | 
+4. O(nlogn)               |
+5. O(n^2)                 |
+6. O(n^3)                 |
+7. O(2^n)                 |
+8. O(n!)                Worst
+
+
+=> Time Complexities for different sorting algorithms
+1. Bubble Sort - O(n^2)
+2. Selection sort - O(n^2)
+3. Merge Sort - O(nlogn)
+
+
+=> Space Complexities for different algorithms
+1. Factorial = O(n)
+2. Fibonacci = O(n)
+3. Merge Sort - O(n)
+
+=> Time Complexities for different miscellaneous algorithms
+1. Prime Number - O(n)
+
+=> Calculation of Time Complexity (TC) using Recursion
+   Methods for calculating TC using recursion
+1. Recurrence Relation
+2. Formula  => TC = Total number of recursion calls * Work done in each call
+
+a. Factorial = O(n)
+b. Fibonacci = O(2^n)
+
+
+Coding Platforms (Practical Usage)
+1. n > 10^8 - O(logn)  or O(1) is allowed
+2. n <= 10^8 - O(n)
+3. n <= 10^6 - O(nlogn)   [sorting may be used]
+4. n <= 10^4 - O(n^2)
+5. n <= 500 - O(n^3)
+6. n <= 25 - O(2^n)
+7. n <= 12 - o(n!)
